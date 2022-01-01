@@ -36,11 +36,11 @@ def convert(link):
 
 # TODO Importing file
 outer_flag = True
-while outer_flag == True:
+while outer_flag:
     print("按q退出程序")
     print("请选择转单个html文件，或转一个包含html文件的文件夹")
     print("转单个文件请输入s并回车，转文件夹请输入d并回车")
-    choice = str(input("s/d/q"))
+    choice = str(input("s/d/q："))
     if choice == "s":
         flag = True
         while flag:
