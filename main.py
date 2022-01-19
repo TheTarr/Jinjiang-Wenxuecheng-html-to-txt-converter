@@ -48,6 +48,7 @@ while outer_flag:
             file = str(input("如”C:/Users/x5/Desktop/mutiple_chapter.html“："))
             if file == "q":
                 flag = False
+                break
             link = open(file)
             convert(link)
     elif choice == "d":
